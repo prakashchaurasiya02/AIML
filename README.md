@@ -1,4 +1,4 @@
-# 🧠 Segmentation Evaluation with Dice Coefficient
+# 🧠 Segmentation Evaluation with Dice Coefficient for segmentation models
 
 This project demonstrates how to compute evaluation metrics like **Dice Coefficient**, **Jaccard Index (IoU)**, and **Accuracy** for segmentation models using a synthetic dataset of binary masks.
 
