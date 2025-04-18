@@ -1,31 +1,38 @@
-# 🧠 Segmentation Evaluation with Dice Coefficient for segmentation models
+# 🧪 Segmentation Evaluation Using Dice Coefficient and IoU
 
-This project demonstrates how to compute evaluation metrics like **Dice Coefficient**, **Jaccard Index (IoU)**, and **Accuracy** for segmentation models using a synthetic dataset of binary masks.
+This project shows how to evaluate **image segmentation models** using metrics like **Dice Coefficient**, **Jaccard Index (IoU)**, and **Accuracy**, with a simple synthetic dataset made of circular binary masks.
+
+---
 
 ## 📌 Overview
 
-We simulate a simple medical-image-style segmentation task using circular binary masks. A logistic regression model is trained to classify pixels as foreground (1) or background (0), and segmentation performance is evaluated using common metrics.
-
-### 🎯 Key Features
-- Synthetic binary mask generation
-- Pixel-wise logistic regression model
-- Dice Coefficient & Jaccard Index calculation
-- Accuracy score
-- Visual comparison of ground truth and predicted masks
+We simulate a basic segmentation task—like detecting objects in medical images—using randomly generated circles in images. A **Logistic Regression** model is trained to classify each pixel as either foreground (1) or background (0). Then, we evaluate how well it performs using standard segmentation metrics.
 
 ---
 
-## 📁 Files
+## 🚀 Features
 
-- `segmentation_metrics.py` — Main script with data generation, training, evaluation, and visualization.
-- `README.md` — This file.
-- Output: Visualization of predicted vs ground truth masks.
+- ✅ Generate synthetic binary masks (circle shapes)
+- 📊 Train a pixel-wise **logistic regression** model
+- 📐 Compute key evaluation metrics:
+  - **Dice Coefficient**
+  - **Jaccard Index (Intersection over Union)**
+  - **Accuracy**
+- 🖼️ Visual comparison of ground truth vs predicted masks
 
 ---
 
-## ⚙️ Requirements
+## 📁 Files Included
 
-Install dependencies using:
+- `segmentation_metrics.py` – Python script for data creation, training, evaluation, and visualization
+- `README.md` – Project description and instructions
+- 📷 Output: Image showing the ground truth and predicted mask side by side
+
+---
+
+## ⚙️ Installation & Requirements
+
+Make sure you have Python installed, then install the required libraries:
 
 ```bash
 pip install numpy matplotlib scikit-learn
