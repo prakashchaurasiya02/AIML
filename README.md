@@ -1,4 +1,4 @@
-# 🧪 Segmentation Evaluation Using Dice Coefficient and IoU
+# Segmentation Evaluation Using Dice Coefficient and IoU
 
 This project shows how to evaluate **image segmentation models** using metrics like **Dice Coefficient**, **Jaccard Index (IoU)**, and **Accuracy**, with a simple synthetic dataset made of circular binary masks.
 
