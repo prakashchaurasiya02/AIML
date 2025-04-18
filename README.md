@@ -24,7 +24,7 @@ We simulate a basic segmentation task—like detecting objects in medical images
 
 ## 📁 Files Included
 
-- `segmentation_metrics.py` – Python script for data creation, training, evaluation, and visualization
+- `seg_model.py` – Python script for data creation, training, evaluation, and visualization
 - `README.md` – Project description and instructions
 - 📷 Output: Image showing the ground truth and predicted mask side by side
 
